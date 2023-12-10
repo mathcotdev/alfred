@@ -6,7 +6,7 @@
             "use":"@vercel/node"
         },
         {
-            "src":"views/**/*.ejs",
+            "src":"views/**/*.hbs",
             "use":"@vercel/static-build"
         }
     ],
