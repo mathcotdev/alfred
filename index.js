@@ -1,5 +1,5 @@
 const expresse = require("express")
-const ejs = require("ejs")
+const hbs = require("hbs")
 const app = expresse()
 app.set("view engine", "hbs")
 app.listen(3000, function(){console.log("http://localhost:"+3000)
